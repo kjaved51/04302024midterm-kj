@@ -1632,3 +1632,119 @@ Processing by ArticlesController#index as HTML
 Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.1ms | Allocations: 2103)
 
 
+Started GET "/" for 146.111.195.28 at 2024-04-18 21:37:41 +0000
+Cannot render console from 146.111.195.28! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 318)
+  Rendered layout layouts/application.html.erb (Duration: 92.2ms | Allocations: 32983)
+Completed 200 OK in 162ms (Views: 100.2ms | ActiveRecord: 0.0ms | Allocations: 44346)
+
+
+Started GET "/" for 146.111.195.28 at 2024-04-18 21:40:43 +0000
+Cannot render console from 146.111.195.28! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 243)
+  Rendered layout layouts/application.html.erb (Duration: 28.2ms | Allocations: 14653)
+Completed 200 OK in 35ms (Views: 31.9ms | ActiveRecord: 0.0ms | Allocations: 16854)
+
+
+Started GET "/w3images/bridge.jpg" for 146.111.195.28 at 2024-04-18 21:40:43 +0000
+Started GET "/w3images/woods.jpg" for 146.111.195.28 at 2024-04-18 21:40:43 +0000
+Cannot render console from 146.111.195.28! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Cannot render console from 146.111.195.28! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/bridge.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/woods.jpg"):
+  
+Started GET "/w3images/avatar_g.jpg" for 146.111.195.28 at 2024-04-18 21:40:43 +0000
+Cannot render console from 146.111.195.28! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/w3images/gondol.jpg" for 146.111.195.28 at 2024-04-18 21:40:43 +0000
+Cannot render console from 146.111.195.28! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/avatar_g.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/gondol.jpg"):
+  
+Started GET "/w3images/workshop.jpg" for 146.111.195.28 at 2024-04-18 21:40:43 +0000
+Cannot render console from 146.111.195.28! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/workshop.jpg"):
+  
+Started GET "/w3images/skies.jpg" for 146.111.195.28 at 2024-04-18 21:40:43 +0000
+Cannot render console from 146.111.195.28! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/w3images/rock.jpg" for 146.111.195.28 at 2024-04-18 21:40:43 +0000
+Cannot render console from 146.111.195.28! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/rock.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/skies.jpg"):
+  
+Started GET "/" for 146.111.195.28 at 2024-04-18 21:41:59 +0000
+Cannot render console from 146.111.195.28! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 243)
+  Rendered layout layouts/application.html.erb (Duration: 24.5ms | Allocations: 14833)
+Completed 200 OK in 32ms (Views: 28.1ms | ActiveRecord: 0.0ms | Allocations: 17031)
+
+
+Started GET "/w3images/gondol.jpg" for 146.111.195.28 at 2024-04-18 21:41:59 +0000
+Cannot render console from 146.111.195.28! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/gondol.jpg"):
+  
+Started GET "/w3images/workshop.jpg" for 146.111.195.28 at 2024-04-18 21:41:59 +0000
+Cannot render console from 146.111.195.28! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/w3images/rock.jpg" for 146.111.195.28 at 2024-04-18 21:41:59 +0000
+Cannot render console from 146.111.195.28! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/rock.jpg"):
+  
+Started GET "/w3images/skies.jpg" for 146.111.195.28 at 2024-04-18 21:41:59 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/workshop.jpg"):
+  
+Cannot render console from 146.111.195.28! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/w3images/skies.jpg"):
+  
+Started GET "/" for 146.111.195.28 at 2024-04-18 21:43:06 +0000
+Cannot render console from 146.111.195.28! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 247)
+  Rendered layout layouts/application.html.erb (Duration: 26.9ms | Allocations: 14839)
+Completed 200 OK in 34ms (Views: 30.6ms | ActiveRecord: 0.0ms | Allocations: 17042)
+
+
+Started GET "/articles/" for 146.111.195.28 at 2024-04-18 21:45:53 +0000
+Cannot render console from 146.111.195.28! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 1366)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 1629)
+
+
+Started GET "/articles/" for 146.111.195.28 at 2024-04-18 21:45:56 +0000
+Cannot render console from 146.111.195.28! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1329)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 1591)
+
+
